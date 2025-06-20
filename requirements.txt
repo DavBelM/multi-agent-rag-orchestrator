@@ -1,0 +1,121 @@
+# Multi-Agent RAG Orchestrator Dependencies
+
+# Core Multi-Agent Framework
+langgraph>=0.0.40
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-anthropic>=0.1.0
+langchain-community>=0.1.0
+
+# LLM Providers
+openai>=1.0.0
+anthropic>=0.7.0
+cohere>=4.30.0
+together>=0.2.0
+
+# Agent Orchestration & Communication
+pydantic>=2.5.0
+asyncio-throttle>=1.0.2
+tenacity>=8.2.0
+networkx>=3.2.0
+
+# State Management & Messaging
+redis>=5.0.0
+postgresql-async>=0.8.0
+sqlalchemy[asyncio]>=2.0.0
+celery[redis]>=5.3.0
+kombu>=5.3.0
+
+# Vector Storage & Retrieval
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+pinecone-client>=2.2.0
+qdrant-client>=1.6.0
+
+# Document Processing
+pypdf2>=3.0.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
+beautifulsoup4>=4.12.0
+python-multipart>=0.0.6
+
+# Web Framework & APIs
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+streamlit>=1.29.0
+websockets>=11.0.0
+server-sent-events>=0.4.0
+
+# Monitoring & Analytics
+prometheus-client>=0.19.0
+grafana-api>=1.0.3
+jaeger-client>=4.8.0
+structlog>=23.2.0
+loguru>=0.7.0
+
+# Workflow Visualization
+graphviz>=0.20.0
+plotly>=5.17.0
+dash>=2.14.0
+cytoscape>=0.2.0
+
+# Performance & Caching
+aioredis>=2.0.0
+aiocache>=0.12.0
+orjson>=3.9.0
+ujson>=5.8.0
+
+# Security & Authentication
+cryptography>=41.0.0
+PyJWT>=2.8.0
+passlib[bcrypt]>=1.7.0
+python-jose[cryptography]>=3.3.0
+
+# Testing & Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.12.0
+pytest-benchmark>=4.0.0
+httpx>=0.25.0
+factory-boy>=3.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+click>=8.1.0
+rich>=13.7.0
+typer>=0.9.0
+tqdm>=4.66.0
+schedule>=1.2.0
+
+# Data Science & Analytics
+pandas>=2.1.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Configuration & Serialization
+pyyaml>=6.0.0
+toml>=0.10.0
+marshmallow>=3.20.0
+attrs>=23.1.0
+
+# HTTP & API Clients
+aiohttp>=3.9.0
+requests>=2.31.0
+httpcore>=1.0.0
+
+# Optional: GPU Support (uncomment if using CUDA)
+# torch>=2.1.0
+# transformers>=4.35.0
+# accelerate>=0.24.0
+
+# Optional: Advanced Vector Stores
+# weaviate-client>=3.25.0
+# elasticsearch>=8.11.0
+# milvus>=2.3.0
+
+# Optional: Enterprise Features
+# kubernetes>=28.1.0
+# docker>=6.1.0
+# terraform-python>=0.1.0
